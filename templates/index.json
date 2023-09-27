@@ -2,10 +2,95 @@
   "sections": {
     "main": {
       "type": "empty-section",
-      "settings": {}
+      "settings": {
+      }
+    },
+    "ee484a40-6a76-4942-b881-518cafe4de8b": {
+      "type": "image-banner",
+      "blocks": {
+        "5ae7cee1-f287-4d9a-a656-6d80b29785e0": {
+          "type": "banner_item",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/pexels-godisable-jacob-923210-min.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/pexels-godisable-jacob-923210-min.jpg",
+            "banner_link": "",
+            "img_brightness": 1,
+            "title": "Quality Craftsmanship and Lasting Style",
+            "title_color": "#ffffff",
+            "subtitle": "Our clothing brand stands out for its commitment to quality craftsmanship and attention to detail. We take pride in offering our customers not only stylish and fashionable clothing but also garments that are designed to last, ensuring our clients always look their best.",
+            "subtitle_color": "#ffffff",
+            "btn_link": "shopify:\/\/products\/classic-comfort-tee",
+            "btn_name": "",
+            "btn_style": "underline",
+            "btn_color": "#000000"
+          }
+        },
+        "18daf104-0e13-44c3-b71e-9d7cc45dc799": {
+          "type": "banner_item",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/pexels-godisable-jacob-908309-min.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/pexels-godisable-jacob-908309-min.jpg",
+            "banner_link": "",
+            "img_brightness": 0,
+            "title": "Affordable Fashion Excellence",
+            "title_color": "#ffffff",
+            "subtitle": "Our clothing brand is synonymous with exceptional value and affordability. We believe that high-quality fashion should be accessible to everyone, and we consistently offer competitive prices without compromising on style or quality.",
+            "subtitle_color": "#ffffff",
+            "btn_link": "",
+            "btn_name": "",
+            "btn_style": "underline",
+            "btn_color": "#ffffff"
+          }
+        },
+        "06769626-e756-4513-8306-93749c50c9dc": {
+          "type": "banner_item",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/pexels-freestocksorg-291762-min.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/pexels-freestocksorg-291762-min.jpg",
+            "banner_link": "shopify:\/\/products\/classic-comfort-tee",
+            "img_brightness": 1,
+            "title": "Sustainability Meets Style",
+            "title_color": "#ffffff",
+            "subtitle": "When you choose our clothing brand, you're not just buying garments; you're investing in a brand that prioritizes sustainability.",
+            "subtitle_color": "#ffffff",
+            "btn_link": "",
+            "btn_name": "",
+            "btn_style": "underline",
+            "btn_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "5ae7cee1-f287-4d9a-a656-6d80b29785e0",
+        "18daf104-0e13-44c3-b71e-9d7cc45dc799",
+        "06769626-e756-4513-8306-93749c50c9dc"
+      ],
+      "settings": {
+        "container_width": 1300,
+        "margin_top_desktop": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom_desktop": 50,
+        "margin_bottom_mobile": 50,
+        "padding_top_desktop": 100,
+        "padding_top_mobile": 50,
+        "padding_bottom_desktop": 100,
+        "padding_bottom_mobile": 50,
+        "auto_play": false,
+        "auto_play_speed": 3000,
+        "desktop_height": 500,
+        "mobile_height": 360,
+        "content_width": 420,
+        "vertical_alignment": "center",
+        "vertical_alignment_mobile": "end",
+        "horizontal_alignment": "start",
+        "horizontal_alignment_mobile": "center",
+        "text_align": "left",
+        "text_align_mobile": "center"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "ee484a40-6a76-4942-b881-518cafe4de8b"
   ]
 }
