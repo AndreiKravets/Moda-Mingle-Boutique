@@ -138,7 +138,7 @@
         "margin_bottom_mobile": 0,
         "padding_top_desktop": 35,
         "padding_top_mobile": 20,
-        "padding_bottom_desktop": 35,
+        "padding_bottom_desktop": 50,
         "padding_bottom_mobile": 35,
         "container_width": 1300,
         "column_proportion": "25",
@@ -153,7 +153,7 @@
         "title_font_size_desktop": 26,
         "title_font_size_mobile": 22,
         "title_color": "#000000",
-        "subtitle": "<p>Explore our carefully curated selection of the latest and trendiest fashion pieces that keep you stylish and up-to-date.</p>",
+        "subtitle": "<p>Explore our carefully curated selection of the latest and trendiest fashion pieces that keep you stylish and up-to-date.<\/p>",
         "subtitle_color": "#313131",
         "btn_link": "shopify:\/\/collections\/all",
         "btn_name": "All Products",
@@ -161,11 +161,42 @@
         "btn_text_color": "#000000",
         "btn_bg_color": "#000000"
       }
+    },
+    "23cef0b1-6016-43ca-aa7b-0adb8fb1123e": {
+      "type": "title-with-text",
+      "settings": {
+        "bg_color": "#ffffff",
+        "margin_top_desktop": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom_desktop": 0,
+        "margin_bottom_mobile": 0,
+        "padding_top_desktop": 50,
+        "padding_top_mobile": 35,
+        "padding_bottom_desktop": 50,
+        "padding_bottom_mobile": 35,
+        "container_width": 1300,
+        "content_width": 640,
+        "content_position": "center",
+        "text_align": "center",
+        "text_align_mobile": "center",
+        "title": "Style Tips & Inspiration",
+        "title_font_size_desktop": 28,
+        "title_font_size_mobile": 26,
+        "title_color": "#000000",
+        "subtitle": "<p>Discover the latest fashion trends and get inspired with our style tips.<\/p><p> Whether you're looking for everyday elegance or a bold statement piece, we have you covered. Explore our curated content for fashion insights, outfit ideas, and insider tips to elevate your wardrobe game.<\/p>",
+        "subtitle_color": "#000000",
+        "btn_link": "",
+        "btn_name": "Read More",
+        "btn_style": "underline",
+        "btn_text_color": "#000000",
+        "btn_bg_color": "#FFFFFF"
+      }
     }
   },
   "order": [
     "main",
     "ee484a40-6a76-4942-b881-518cafe4de8b",
-    "674df542-1d2d-49d4-8cd6-95ca361659b7"
+    "674df542-1d2d-49d4-8cd6-95ca361659b7",
+    "23cef0b1-6016-43ca-aa7b-0adb8fb1123e"
   ]
 }
