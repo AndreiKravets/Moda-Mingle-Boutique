@@ -87,10 +87,85 @@
         "text_align": "left",
         "text_align_mobile": "center"
       }
+    },
+    "674df542-1d2d-49d4-8cd6-95ca361659b7": {
+      "type": "featured-products",
+      "blocks": {
+        "0f78bcd7-731d-40c5-a1ee-d2225c8af1e7": {
+          "type": "product_item",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/pexels-photo-794063.webp",
+            "product_image_hover": "shopify:\/\/shop_images\/pexels-photo-4124201.jpg",
+            "product_link": ""
+          }
+        },
+        "45b627b9-8664-41d3-9587-ff47d13d3297": {
+          "type": "product_item",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/pexels-photo-10083277.jpg",
+            "product_image_hover": "shopify:\/\/shop_images\/pexels-photo-10083279.jpg",
+            "product_link": ""
+          }
+        },
+        "76118398-cd3a-4798-9589-ec844d8d04ac": {
+          "type": "product_item",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/pexels-photo-2916814.jpg",
+            "product_image_hover": "shopify:\/\/shop_images\/pexels-photo-1007052.jpg",
+            "product_link": ""
+          }
+        },
+        "78876aae-d168-4684-9609-bc74ebaf71f3": {
+          "type": "product_item",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/pexels-photo-18398355.webp",
+            "product_image_hover": "shopify:\/\/shop_images\/pexels-photo-18398353.webp",
+            "product_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "0f78bcd7-731d-40c5-a1ee-d2225c8af1e7",
+        "45b627b9-8664-41d3-9587-ff47d13d3297",
+        "76118398-cd3a-4798-9589-ec844d8d04ac",
+        "78876aae-d168-4684-9609-bc74ebaf71f3"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "margin_top_desktop": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom_desktop": 0,
+        "margin_bottom_mobile": 0,
+        "padding_top_desktop": 35,
+        "padding_top_mobile": 20,
+        "padding_bottom_desktop": 35,
+        "padding_bottom_mobile": 35,
+        "container_width": 1300,
+        "column_proportion": "25",
+        "images_height": 290,
+        "content_width": 720,
+        "content_vertical_position": "center",
+        "content_position": "left",
+        "content_position_mobile": "center",
+        "text_align": "left",
+        "text_align_mobile": "center",
+        "title": "Featured Fashion Picks",
+        "title_font_size_desktop": 26,
+        "title_font_size_mobile": 22,
+        "title_color": "#000000",
+        "subtitle": "Explore our carefully curated selection of the latest and trendiest fashion pieces that keep you stylish and up-to-date.",
+        "subtitle_color": "#313131",
+        "btn_link": "shopify:\/\/collections\/all",
+        "btn_name": "All Products",
+        "btn_style": "normal",
+        "btn_text_color": "#000000",
+        "btn_bg_color": "#000000"
+      }
     }
   },
   "order": [
     "main",
-    "ee484a40-6a76-4942-b881-518cafe4de8b"
+    "ee484a40-6a76-4942-b881-518cafe4de8b",
+    "674df542-1d2d-49d4-8cd6-95ca361659b7"
   ]
 }
