@@ -44,6 +44,7 @@
       #shopify-section-{{ section.id }} .s-image-banner__wrapper_{{ forloop.index }} img {
           filter: brightness({% if banner.img_brightness  == 0 %}1{% else %} 0.{{banner.img_brightness | minus: 9 | abs}} {% endif %});
       }
+
       #shopify-section-{{ section.id }} .s-image-banner__wrapper_{{ forloop.index }} .s-image-banner__content_title h2 {
           color: {{ banner.title_color }};
       }
@@ -55,6 +56,7 @@
       #shopify-section-{{ section.id }} .s-image-banner__wrapper_{{ forloop.index }} .s-image-banner__content_btn {
           color: {{ banner.btn_color }};
       }
+
       #shopify-section-{{ section.id }} .s-image-banner__wrapper_{{ forloop.index }} .s-image-banner__content_btn--underline::before {
           background-color: {{ banner.btn_color }};
       }
@@ -73,7 +75,7 @@
   {% assign dataDots = false %}
 {% endif %}
 
-<image-banner data-speed="{{ speedSlider }}" data-dots = "{{ dataDots }}">
+<image-banner data-speed="{{ speedSlider }}" data-dots="{{ dataDots }}">
   <section class="s-image-banner">
     {% for block in section.blocks %}
       {%- assign banner = block.settings -%}
@@ -95,12 +97,12 @@
             <div class="s-image-banner__content">
               {% if banner.title %}
                 <div class="s-image-banner__content_title">
-                 <h2>{{ banner.title }}</h2>
+                  <h2>{{ banner.title }}</h2>
                 </div>
               {% endif %}
               {% if banner.subtitle %}
                 <div class="s-image-banner__content_subtitle">
-                 <p>{{ banner.subtitle }}</p>
+                  <p>{{ banner.subtitle }}</p>
                 </div>
               {% endif %}
               {% if banner.btn_name %}
@@ -123,6 +125,11 @@
   "name": "Image banner",
   "tag": "section",
   "class": "section",
+  "disabled_on": {
+    "groups": [
+      "header"
+    ]
+  },
   "settings": [
     {
       "type": "header",
