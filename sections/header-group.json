@@ -5,10 +5,79 @@
     "header": {
       "type": "header",
       "settings": {
+        "menu_position": "center",
+        "max_width": 1300,
+        "height": 80,
+        "header_padding": 10,
+        "bg_color": "#ffffff",
+        "logo": "shopify:\/\/shop_images\/isolated-monochrome-black.svg",
+        "logo_width": 88,
+        "menu": "header",
+        "menu_font_size": 18,
+        "mob_menu_font_size": 16,
+        "menu_color": "#000000",
+        "active_menu_color": "#585858"
       }
+    },
+    "30e0c9d6-89cc-4026-8faf-5cebfe33cae8": {
+      "type": "mega-menu",
+      "blocks": {
+        "e407439d-ec79-4e50-8020-f68e515c8173": {
+          "type": "mega-menu_column",
+          "settings": {
+            "title": "",
+            "menu": "header",
+            "product_link": ""
+          }
+        },
+        "400e0640-e992-419a-ab46-a6a976f13c16": {
+          "type": "mega-menu_column",
+          "settings": {
+            "title": "",
+            "menu": "",
+            "product_image": "shopify:\/\/shop_images\/pexels-photo-10083277.jpg",
+            "product_image_hover": "shopify:\/\/shop_images\/pexels-photo-10083279.jpg",
+            "product_link": ""
+          }
+        },
+        "87754b94-c0fa-47d3-a7bc-f72a1085fe10": {
+          "type": "mega-menu_column",
+          "settings": {
+            "title": "",
+            "menu": "",
+            "product_image": "shopify:\/\/shop_images\/pexels-photo-794063.webp",
+            "product_image_hover": "shopify:\/\/shop_images\/pexels-photo-4124201.jpg",
+            "product_link": ""
+          }
+        },
+        "085e09e7-8132-4c1a-9432-7cf79601a133": {
+          "type": "mega-menu_column",
+          "settings": {
+            "title": "",
+            "menu": "",
+            "product_image": "shopify:\/\/shop_images\/pexels-photo-2916814.jpg",
+            "product_image_hover": "shopify:\/\/shop_images\/pexels-photo-1007052.jpg",
+            "product_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "e407439d-ec79-4e50-8020-f68e515c8173",
+        "400e0640-e992-419a-ab46-a6a976f13c16",
+        "87754b94-c0fa-47d3-a7bc-f72a1085fe10",
+        "085e09e7-8132-4c1a-9432-7cf79601a133"
+      ],
+      "settings": {
+        "parent_menu": "Home page",
+        "bg_color": "#ffffff",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "container_width": 1300
       }
+    }
   },
   "order": [
-    "header"
+    "header",
+    "30e0c9d6-89cc-4026-8faf-5cebfe33cae8"
   ]
 }

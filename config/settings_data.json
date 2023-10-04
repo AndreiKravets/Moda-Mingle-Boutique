@@ -1,5 +1,7 @@
 {
   "current": {
+    "font_body": "dm_sans_n4",
+    "font_heading": "josefin_slab_n4",
     "sections": {
       "header": {
         "type": "header",
