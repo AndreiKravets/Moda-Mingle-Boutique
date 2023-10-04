@@ -1,10 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "empty-section",
-      "settings": {
-      }
-    },
     "ee484a40-6a76-4942-b881-518cafe4de8b": {
       "type": "image-banner",
       "blocks": {
@@ -194,7 +189,6 @@
     }
   },
   "order": [
-    "main",
     "ee484a40-6a76-4942-b881-518cafe4de8b",
     "674df542-1d2d-49d4-8cd6-95ca361659b7",
     "23cef0b1-6016-43ca-aa7b-0adb8fb1123e"

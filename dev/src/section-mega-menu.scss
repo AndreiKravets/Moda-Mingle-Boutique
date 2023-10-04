@@ -1,12 +1,18 @@
 .s-mega-menu{
   display: block;
-  padding-top: 100px;
-  padding-bottom: 100px;
   position: fixed;
-  top: 100px;
-  z-index: 99;
+  z-index: -1;
   width: 100%;
   background-color: white;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: transform .15s ease, opacity .15s ease;
+  &.active{
+    z-index: 9;
+    opacity: 1;
+    transform: translateY(0px);
+    transition: transform .35s ease, opacity .25s ease;
+  }
   &__container{
     max-width: 1300px;
     margin: auto;
@@ -17,18 +23,25 @@
   }
   &__col{
     width: 100%;
+    padding: 5px;
   }
   &__nav{
 
   }
   &__menu{
-    &_item{
-
+    padding: 0;
+   .s-header__menu_item{
+     margin: 0 0 5px;
+    a{
+      padding: 5px 0;
+      &:before{
+        bottom: 3px;
+      }
     }
+   }
   }
   &__product{
     position: relative;
-    min-height: 300px;
     &_img {
       width: 100%;
       height: 100%;
@@ -50,6 +63,14 @@
         &:hover {
           opacity: 1;
         }
+      }
+    }
+    &-name{
+      padding: 12px 14px;
+      font-size: 18px;
+      a{
+        font-size: 18px;
+        text-decoration: none;
       }
     }
   }
