@@ -1,5 +1,4 @@
 {{ 'header.css' | asset_url | stylesheet_tag }}
-<script src="{{ 'header.js' | asset_url }}" defer></script>
 
 <style>
     #shopify-section-{{ section.id }} .s-header {
@@ -65,7 +64,7 @@
     }
 </style>
 
-<s-header class="s-header">
+<section class="s-header">
   <header>
      <span class="s-header__menu_btn">
       {% render 'icon-hamburger' %}
@@ -89,8 +88,8 @@
 
           <li class="s-header__menu_item {% if link.active %} s-header__menu_item--active {% endif %} {% if link.links.size > 0 -%} s-header__menu_item--parent {% endif %}">
             {{ link.title | link_to: link.url }}
+            {% render 'icon-angle' %}
             {% if link.links.size > 0 -%}
-              {% render 'icon-angle' %}
               <ul>
                 {% for link_child in link.links %}
                   <li class="{% if link_child.active %}active{% endif %}">
@@ -117,7 +116,7 @@
       </a>
     </div>
   </header>
-</s-header>
+</section>
 
 {% schema %}
 {

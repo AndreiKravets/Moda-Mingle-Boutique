@@ -64,10 +64,71 @@
         "container_width": 1300,
         "images_height": 290
       }
+    },
+    "d775da1a-2901-4ba7-a8d2-0f7666a93264": {
+      "type": "mega-menu",
+      "blocks": {
+        "21328bd5-d979-406d-8f2e-c410ef2d32bf": {
+          "type": "mega-menu_column",
+          "settings": {
+            "title": "Urban Finesse",
+            "max_width_column": 100,
+            "menu": "",
+            "product_image": "shopify:\/\/shop_images\/pexels-photo-2916814.jpg",
+            "product_image_hover": "shopify:\/\/shop_images\/pexels-photo-1007052.jpg",
+            "product_link": ""
+          }
+        },
+        "b719b37a-fa5b-4ad3-a49b-cdf7aa9b0d1f": {
+          "type": "mega-menu_column",
+          "settings": {
+            "title": "Chic Canvas",
+            "max_width_column": 100,
+            "menu": "",
+            "product_image": "shopify:\/\/shop_images\/pexels-photo-10083277.jpg",
+            "product_image_hover": "shopify:\/\/shop_images\/pexels-photo-10083279.jpg",
+            "product_link": "shopify:\/\/products\/classic-comfort-tee"
+          }
+        },
+        "3354aad4-5179-4380-a0b2-9c79050445f0": {
+          "type": "mega-menu_column",
+          "settings": {
+            "title": "Tailor Trends",
+            "max_width_column": 100,
+            "menu": "",
+            "product_image": "shopify:\/\/shop_images\/pexels-photo-794063.webp",
+            "product_image_hover": "shopify:\/\/shop_images\/pexels-photo-4124201.jpg",
+            "product_link": ""
+          }
+        },
+        "d3a57238-a9a7-4b8a-b8b7-6444b2cd6943": {
+          "type": "mega-menu_column",
+          "settings": {
+            "title": "Urban Finesse",
+            "max_width_column": 100,
+            "menu": "",
+            "product_image": "shopify:\/\/shop_images\/pexels-photo-2916814.jpg",
+            "product_image_hover": "shopify:\/\/shop_images\/pexels-photo-1007052.jpg",
+            "product_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "21328bd5-d979-406d-8f2e-c410ef2d32bf",
+        "b719b37a-fa5b-4ad3-a49b-cdf7aa9b0d1f",
+        "3354aad4-5179-4380-a0b2-9c79050445f0",
+        "d3a57238-a9a7-4b8a-b8b7-6444b2cd6943"
+      ],
+      "settings": {
+        "parent_menu": "Contact",
+        "container_width": 1300,
+        "images_height": 290
+      }
     }
   },
   "order": [
     "header",
-    "30e0c9d6-89cc-4026-8faf-5cebfe33cae8"
+    "30e0c9d6-89cc-4026-8faf-5cebfe33cae8",
+    "d775da1a-2901-4ba7-a8d2-0f7666a93264"
   ]
 }
