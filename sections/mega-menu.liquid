@@ -30,7 +30,6 @@
 
     #shopify-section-{{ section.id }} .s-mega-menu__nav span {
         color: {{ settings.header_menu_color }};
-        opacity: 0.8;
         font-family: {{ settings.menu_font_heading.family }};
         font-size: {{ settings.header_menu_font_size | plus: 4 }}px;
     }
@@ -48,6 +47,9 @@
     }
 
     @media screen and (max-width: 990px) {
+        #shopify-section-{{ section.id }} .s-mega-menu {
+            top: {{ settings.header_padding | divided_by: 3 | times: 2 | plus: settings.header_height }}px;
+        }
         #shopify-section-{{ section.id }} .s-mega-menu__menu a {
             font-size: {{ settings.header_mob_menu_font_size }}px;
         }
@@ -58,12 +60,18 @@
       #shopify-section-{{ section.id }} .s-mega-menu__col--{{ forloop.index }}{
           max-width: {{ block.settings.max_width_column }}%;
       }
+      @media screen and (max-width: 990px) {
+          #shopify-section-{{ section.id }} .s-mega-menu__col--{{ forloop.index }}{
+              max-width: 100%;
+          }
+      }
   </style>
 {% endfor %}
 
 
 <section class="s-mega-menu" data-parent-menu = "{{ section.settings.parent_menu }}">
   <div class="s-mega-menu__container">
+   <span class="s-mega-menu__close">{% render 'icon-angle' %}</span>
     <div class="s-mega-menu__row">
       {% for block in section.blocks %}
         {%- assign column = block.settings -%}
@@ -77,6 +85,15 @@
                 {% for link in column.menu.links %}
                   <li class="s-mega-menu__menu_item {% if link.active %} s-mega-menu__menu_item--active {% endif %}">
                     {{ link.title | link_to: link.url }}
+                    {% if link.links.size > 0 -%}
+                      <ul>
+                        {% for link_child in link.links %}
+                          <li class="{% if link_child.active %}active{% endif %}">
+                            {{ link_child.title | link_to: link_child.url }}
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    {% endif %}
                   </li>
                 {% endfor %}
               </ul>
