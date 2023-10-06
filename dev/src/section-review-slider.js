@@ -1,6 +1,6 @@
-if (!customElements.get('s-card-slider')) {
+if (!customElements.get('s-review-slider')) {
 
-  customElements.define('s-card-slider', class SCardSlider extends HTMLElement {
+  customElements.define('s-review-slider', class SReviewSlider extends HTMLElement {
     constructor() {
       super();
     }

@@ -1,0 +1,22 @@
+{{ 'section-review-slider.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'section-review-slider.js' | asset_url }}" defer></script>
+
+<s-review-slider>
+  <section class="s-review-slider">
+
+  </section>
+</s-review-slider>
+
+{% schema %}
+{
+  "name": "Review slider",
+  "settings": [
+
+  ],
+  "presets": [
+    {
+      "name": "Review slider"
+    }
+  ]
+}
+{% endschema %}
