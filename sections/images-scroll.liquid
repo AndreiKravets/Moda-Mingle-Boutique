@@ -15,6 +15,10 @@
         background: {{ section.settings.bg_color }};
     }
 
+    #shopify-section-{{ section.id }} .s-images-scroll__container {
+        max-width: {{section.settings.container_width}}px;
+    }
+
     @media (max-width: 600px) {
         #shopify-section-{{ section.id }} .s-images-scroll {
             margin-top: {{ section.settings.margin_top_mobile }}px;
@@ -28,9 +32,35 @@
 <s-images-scroll class="s-images-scroll">
   <div class="s-images-scroll__container">
     <div class="s-images-scroll__row">
+      <div class="s-images-scroll__content">
+        <div class="s-images-scroll__content__title">
+          <h3>{{ section.settings.section_title }}</h3>
+        </div>
+        <div class="s-images-scroll__content__steps">
+          {% for block in section.blocks %}
+            {%- assign step_content = block.settings -%}
+            <div class="s-images-scroll__content__step {% if forloop.first %} s-images-scroll__content__step--active {% else %}
+               s-images-scroll__content__step--bottom {% endif %}">
+              <h6>{{ step_content.title }}</h6>
+              <p>{{ step_content.content }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
 
+      <div class="s-images-scroll__wrapper-images">
+        <div class="s-images-scroll__images">
+          {% for block in section.blocks %}
+            {%- assign step_image = block.settings -%}
+            <div data-image-index={{ forloop.index }} class="s-images-scroll__images__image">
+              <img src="{{ step_image.image | img_url: 'master' }}">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
     </div>
   </div>
+
 </s-images-scroll>
 
 {% schema %}
@@ -114,6 +144,16 @@
       "step": 5,
       "label": "Padding Bottom Mobile",
       "default": 50
+    },
+    {
+      "type": "range",
+      "id": "container_width",
+      "min": 600,
+      "max": 1600,
+      "step": 10,
+      "unit": "px",
+      "label": "Container width",
+      "default": 1300
     },
     {
       "type": "textarea",
