@@ -1,8 +1,78 @@
 .s-images-scroll{
+  overflow: hidden;
   &__container{
-
+   margin: auto;
   }
   &__row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    &.active{
+      position: fixed;
+      transform: translateY(0px);
+      &--bottom{
+        position: unset;
+      }
+    }
 
+  }
+  &__content{
+    flex-basis: 50%;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    &_title{
+      z-index: 9;
+      max-width: 450px;
+    }
+    &_steps{
+      position: relative;
+      height: 200px;
+      max-width: 360px;
+      font-size: 20px;
+    }
+    &_step{
+      position: absolute;
+      top: 0;
+      transition: all 0.3s ease-in-out;
+      opacity: 0;
+      h6{
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+      &--top{
+        transform: translateY(-40%);
+      }
+      &--bottom{
+        transform: translateY(140%);
+      }
+      &--active{
+        transform: translateY(50%);
+        opacity: 1;
+      }
+    }
+  }
+  &__wrapper-images{
+    //overflow: hidden;
+    flex-basis: 50%;
+  }
+  &__images{
+    transform: translateY(0px);
+    transition: all 0.9s ease-out;
+    &_image{
+      height: 600px;
+      margin-bottom: 100px;
+      position: relative;
+      overflow: hidden;
+      img{
+        width: 100%;
+        height: calc(100% + 100px);
+        object-fit: cover;
+        object-position: center;
+        position: absolute;
+        top: 0;
+      }
+    }
   }
 }

@@ -266,12 +266,147 @@
         "client_name_color": "#000000",
         "review_text_color": "#9e9e9e"
       }
+    },
+    "750852ca-e8dd-43fb-8865-1fa28018334c": {
+      "type": "images-scroll",
+      "blocks": {
+        "070139ea-8179-438b-8b3b-d2ffc2517e25": {
+          "type": "Step",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-photo-794063.webp",
+            "content_color": "#000000",
+            "title": "lorem ipsum",
+            "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quasi excepturi asperiores totam fugiat at!"
+          }
+        },
+        "a32b026f-7f76-4cf3-ad4e-b26a0e9ceac4": {
+          "type": "Step",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-photo-4124201.jpg",
+            "content_color": "#000000",
+            "title": "lorem ipsum",
+            "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quasi excepturi asperiores totam fugiat at!"
+          }
+        },
+        "e6ea6f30-ffe8-4b1b-ac63-7482088d386c": {
+          "type": "Step",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-photo-10083279.jpg",
+            "content_color": "#000000",
+            "title": "lorem ipsum",
+            "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quasi excepturi asperiores totam fugiat at!"
+          }
+        },
+        "8567a3b1-6a34-4577-b396-aee22d90f463": {
+          "type": "Step",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-photo-2916814.jpg",
+            "content_color": "#000000",
+            "title": "lorem ipsum",
+            "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quasi excepturi asperiores totam fugiat at!"
+          }
+        }
+      },
+      "block_order": [
+        "070139ea-8179-438b-8b3b-d2ffc2517e25",
+        "a32b026f-7f76-4cf3-ad4e-b26a0e9ceac4",
+        "e6ea6f30-ffe8-4b1b-ac63-7482088d386c",
+        "8567a3b1-6a34-4577-b396-aee22d90f463"
+      ],
+      "settings": {
+        "bg_color": "#FFFFFF",
+        "margin_top_desktop": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom_desktop": 0,
+        "margin_bottom_mobile": 0,
+        "padding_top_desktop": 100,
+        "padding_top_mobile": 50,
+        "padding_bottom_desktop": 100,
+        "padding_bottom_mobile": 50,
+        "section_title": "Welcome to my shop!"
+      }
+    },
+    "05bf9f40-d736-43b2-9b65-6b4deab8e02a": {
+      "type": "featured-products",
+      "blocks": {
+        "2d78f484-a11d-47ed-a576-e4772b04883c": {
+          "type": "product_item",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/pexels-photo-794063.webp",
+            "product_image_hover": "shopify:\/\/shop_images\/pexels-photo-4124201.jpg",
+            "product_link": ""
+          }
+        },
+        "9abd3545-21d1-4b34-b300-e4d7145d79c7": {
+          "type": "product_item",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/pexels-photo-10083277.jpg",
+            "product_image_hover": "shopify:\/\/shop_images\/pexels-photo-10083279.jpg",
+            "product_link": ""
+          }
+        },
+        "83c3dcad-cbf2-4494-bd35-0fb2e89f9371": {
+          "type": "product_item",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/pexels-photo-2916814.jpg",
+            "product_image_hover": "shopify:\/\/shop_images\/pexels-photo-1007052.jpg",
+            "product_link": ""
+          }
+        },
+        "ca0f60d7-1e4c-40db-ae98-169c90fd7138": {
+          "type": "product_item",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/pexels-photo-18398355.webp",
+            "product_image_hover": "shopify:\/\/shop_images\/pexels-photo-18398353.webp",
+            "product_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "2d78f484-a11d-47ed-a576-e4772b04883c",
+        "9abd3545-21d1-4b34-b300-e4d7145d79c7",
+        "83c3dcad-cbf2-4494-bd35-0fb2e89f9371",
+        "ca0f60d7-1e4c-40db-ae98-169c90fd7138"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "margin_top_desktop": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom_desktop": 0,
+        "margin_bottom_mobile": 0,
+        "padding_top_desktop": 35,
+        "padding_top_mobile": 20,
+        "padding_bottom_desktop": 50,
+        "padding_bottom_mobile": 35,
+        "container_width": 1300,
+        "column_proportion": "25",
+        "images_height": 290,
+        "content_width": 720,
+        "content_vertical_position": "center",
+        "content_position": "right",
+        "content_position_mobile": "center",
+        "text_align": "right",
+        "text_align_mobile": "center",
+        "title": "Featured Fashion Picks",
+        "title_font_size_desktop": 26,
+        "title_font_size_mobile": 22,
+        "title_color": "#000000",
+        "subtitle": "<p>Explore our carefully curated selection of the latest and trendiest fashion pieces that keep you stylish and up-to-date.<\/p>",
+        "subtitle_color": "#313131",
+        "btn_link": "shopify:\/\/collections\/all",
+        "btn_name": "All Products",
+        "btn_style": "normal",
+        "btn_text_color": "#000000",
+        "btn_bg_color": "#000000"
+      }
     }
   },
   "order": [
     "ee484a40-6a76-4942-b881-518cafe4de8b",
     "674df542-1d2d-49d4-8cd6-95ca361659b7",
     "23cef0b1-6016-43ca-aa7b-0adb8fb1123e",
-    "9878c318-4439-4ff7-9db7-c22c34998b03"
+    "9878c318-4439-4ff7-9db7-c22c34998b03",
+    "750852ca-e8dd-43fb-8865-1fa28018334c",
+    "05bf9f40-d736-43b2-9b65-6b4deab8e02a"
   ]
 }

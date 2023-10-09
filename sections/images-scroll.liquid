@@ -15,7 +15,7 @@
         background: {{ section.settings.bg_color }};
     }
 
-    #shopify-section-{{ section.id }} .s-images-scroll__container {
+    #shopify-section-{{ section.id }} .s-images-scroll__container, #shopify-section-{{ section.id }} .s-images-scroll__row {
         max-width: {{section.settings.container_width}}px;
     }
 
@@ -33,14 +33,14 @@
   <div class="s-images-scroll__container">
     <div class="s-images-scroll__row">
       <div class="s-images-scroll__content">
-        <div class="s-images-scroll__content__title">
+        <div class="s-images-scroll__content_title">
           <h3>{{ section.settings.section_title }}</h3>
         </div>
-        <div class="s-images-scroll__content__steps">
+        <div class="s-images-scroll__content_steps">
           {% for block in section.blocks %}
             {%- assign step_content = block.settings -%}
-            <div class="s-images-scroll__content__step {% if forloop.first %} s-images-scroll__content__step--active {% else %}
-               s-images-scroll__content__step--bottom {% endif %}">
+            <div class="s-images-scroll__content_step {% if forloop.first %} s-images-scroll__content_step--active {% else %}
+               s-images-scroll__content_step--bottom {% endif %}">
               <h6>{{ step_content.title }}</h6>
               <p>{{ step_content.content }}</p>
             </div>
@@ -52,7 +52,7 @@
         <div class="s-images-scroll__images">
           {% for block in section.blocks %}
             {%- assign step_image = block.settings -%}
-            <div data-image-index={{ forloop.index }} class="s-images-scroll__images__image">
+            <div data-image-index={{ forloop.index }} class="s-images-scroll__images_image">
               <img src="{{ step_image.image | img_url: 'master' }}">
             </div>
           {% endfor %}
