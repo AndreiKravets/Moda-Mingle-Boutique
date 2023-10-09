@@ -8,12 +8,12 @@ if (!customElements.get('s-images-scroll')) {
       connectedCallback() {
         this.addStyles()
         this.scrollEvent()
-        console.log(this.screenHeight)
-        console.log(this.rowHeight)
       }
 
       elemContainer = this.querySelector('.s-images-scroll__container')
       elemRow = this.querySelector('.s-images-scroll__row')
+      elemWrapperImages = this.querySelector('.s-images-scroll__images')
+
       screenHeight = window.screen.availHeight
       containerHeight = this.elemContainer.offsetHeight
       rowHeight = this.screenHeight * (80 / 100)
@@ -34,15 +34,21 @@ if (!customElements.get('s-images-scroll')) {
 
         if (this.elemContainer.getBoundingClientRect().y < -this.containerBottomPosition) {
           this.elemRow.classList.add('active--bottom')
-          this.elemRow.style.transform = 'translateY('+ (this.containerHeight - this.rowHeight + 50) +'px)'
+          this.elemRow.style.transform = 'translateY(' + (this.containerHeight - this.rowHeight + 50) + 'px)'
         } else {
           this.elemRow.classList.remove('active--bottom')
           this.elemRow.style.transform = 'translateY(0px)'
         }
       }
 
+      translateImages() {
+        if (this.elemContainer.getBoundingClientRect().y < 0 && this.elemContainer.getBoundingClientRect().y > -(this.containerHeight - this.rowHeight)) {
+          this.elemWrapperImages.style.transform = 'translateY(' + (this.elemContainer.getBoundingClientRect().y) + 'px)'
+        }
+      }
+
       scrollEvent() {
-        window.addEventListener('scroll', () => (this.toggleFixedSection()))
+        window.addEventListener('scroll', () => (this.toggleFixedSection(), this.translateImages()))
       }
     }
   )
