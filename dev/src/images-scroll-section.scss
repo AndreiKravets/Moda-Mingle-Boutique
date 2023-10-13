@@ -61,11 +61,15 @@
     transform: translateY(0px);
     transition: all 0.5s ease-out;
     &_image{
-      height: 600px;
-      margin-bottom: 100px;
+      height: 800px;
+      min-height: 70vh;
+      margin-bottom: 50px;
       position: relative;
       overflow: hidden;
-      img{
+      @media (max-width: 1200px) {
+       height: 600px;
+       }
+        img{
         width: 100%;
         height: calc(100% + 100px);
         object-fit: cover;
