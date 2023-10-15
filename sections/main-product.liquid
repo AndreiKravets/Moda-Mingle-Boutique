@@ -1,0 +1,16 @@
+{{ 'main-product.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'main-product.js' | asset_url }}" defer></script>
+
+<main-product data-variants='{{ product.variants | json }}'>
+  <section class="main-product">
+    <div class="main-product__row">
+    </div>
+  </section>
+</main-product>
+
+{% schema %}
+{
+  "name": "Main Product",
+  "settings": []
+}
+{% endschema %}
