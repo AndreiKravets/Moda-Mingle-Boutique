@@ -165,7 +165,7 @@
         "margin_top_mobile": 0,
         "margin_bottom_desktop": 0,
         "margin_bottom_mobile": 0,
-        "padding_top_desktop": 50,
+        "padding_top_desktop": 20,
         "padding_top_mobile": 35,
         "padding_bottom_desktop": 50,
         "padding_bottom_mobile": 35,
@@ -241,11 +241,11 @@
       "settings": {
         "margin_top_desktop": 0,
         "margin_top_mobile": 0,
-        "margin_bottom_desktop": 50,
-        "margin_bottom_mobile": 50,
+        "margin_bottom_desktop": 0,
+        "margin_bottom_mobile": 0,
         "padding_top_desktop": 60,
         "padding_top_mobile": 50,
-        "padding_bottom_desktop": 100,
+        "padding_bottom_desktop": 70,
         "padding_bottom_mobile": 50,
         "content_width": 1200,
         "spacing": 12,
@@ -275,8 +275,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/pexels-photo-794063.webp",
             "content_color": "#000000",
-            "title": "lorem ipsum",
-            "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quasi excepturi asperiores totam fugiat at!"
+            "title": "Step 1",
+            "content": "Dive into a world of endless fashion possibilities. Browse our carefully curated collections, from casual chic to elegant evening wear. Discover pieces that resonate with your unique style."
           }
         },
         "a32b026f-7f76-4cf3-ad4e-b26a0e9ceac4": {
@@ -284,8 +284,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/pexels-photo-4124201.jpg",
             "content_color": "#000000",
-            "title": "lorem ipsum",
-            "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quasi excepturi asperiores totam fugiat at!"
+            "title": "Step 2",
+            "content": "Our fashion experts are here to guide you. Book a one-on-one consultation to build a wardrobe tailored to your taste and lifestyle. Uncover the perfect outfits for every occasion."
           }
         },
         "e6ea6f30-ffe8-4b1b-ac63-7482088d386c": {
@@ -293,8 +293,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/pexels-photo-10083279.jpg",
             "content_color": "#000000",
-            "title": "lorem ipsum",
-            "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quasi excepturi asperiores totam fugiat at!"
+            "title": "Step 3",
+            "content": "Elevate your fashion game with our mix-and-match suggestions. Learn how to combine pieces effortlessly, creating versatile and stylish outfits. Confidence is the ultimate accessory."
           }
         },
         "8567a3b1-6a34-4577-b396-aee22d90f463": {
@@ -302,8 +302,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/pexels-photo-2916814.jpg",
             "content_color": "#000000",
-            "title": "lorem ipsum",
-            "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quasi excepturi asperiores totam fugiat at!"
+            "title": "Step 4",
+            "content": "Join our fashion community and stay inspired. Receive the latest trends, style tips, and exclusive offers. Be part of a community where your style is celebrated."
           }
         }
       },
@@ -314,16 +314,17 @@
         "8567a3b1-6a34-4577-b396-aee22d90f463"
       ],
       "settings": {
-        "bg_color": "#FFFFFF",
+        "bg_color": "#efeeee",
         "margin_top_desktop": 0,
         "margin_top_mobile": 0,
         "margin_bottom_desktop": 0,
         "margin_bottom_mobile": 0,
-        "padding_top_desktop": 100,
+        "padding_top_desktop": 70,
         "padding_top_mobile": 50,
-        "padding_bottom_desktop": 100,
-        "padding_bottom_mobile": 50,
-        "section_title": "Welcome to my shop!"
+        "padding_bottom_desktop": 70,
+        "padding_bottom_mobile": 20,
+        "container_width": 1300,
+        "section_title": "Embark on a Transformative Style Journey with These 4 Simple Steps"
       }
     },
     "05bf9f40-d736-43b2-9b65-6b4deab8e02a": {
@@ -374,10 +375,10 @@
         "margin_top_mobile": 0,
         "margin_bottom_desktop": 0,
         "margin_bottom_mobile": 0,
-        "padding_top_desktop": 35,
-        "padding_top_mobile": 20,
-        "padding_bottom_desktop": 50,
-        "padding_bottom_mobile": 35,
+        "padding_top_desktop": 65,
+        "padding_top_mobile": 30,
+        "padding_bottom_desktop": 60,
+        "padding_bottom_mobile": 30,
         "container_width": 1300,
         "column_proportion": "25",
         "images_height": 290,
