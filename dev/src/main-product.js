@@ -5,8 +5,6 @@ customElements.define('main-product', class MProduct extends HTMLElement {
 
     variants = JSON.parse(this.getAttribute('data-variants'))
     options = this.querySelectorAll('.variants-option')
-    slider
-    sliderNav
 
     connectedCallback() {
       this.options.forEach(option => {
@@ -62,7 +60,7 @@ customElements.define('main-product', class MProduct extends HTMLElement {
       const plus = this.querySelector('.product-count__plus')
 
       minus.addEventListener('click', () => {
-        count.value = count.value - 1
+        if (count.value > 1) count.value = count.value - 1
         productQuantity.value = count.value
       })
       plus.addEventListener('click', () => {
@@ -96,7 +94,6 @@ customElements.define('main-product', class MProduct extends HTMLElement {
 
         }
       })
-
       this.querySelector('#variant-select').value = currentVariantId
     }
   }

@@ -61,7 +61,10 @@
                             checked
                           {% endif %}
                   >
-                  <label for="{{ option }}-{{ value }}" style="background-color: {{ value }}">{{ value }}</label>
+                  <label for="{{ option }}-{{ value }}"
+                        {% if option == 'Color' %} style="background-color: {{ value }}" {% endif %}>
+                    {{ value }}
+                  </label>
                 {% endfor %}
 
               </fieldset>
