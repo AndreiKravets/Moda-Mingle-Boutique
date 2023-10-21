@@ -59,7 +59,7 @@
         "unit": "px",
         "label": "Font size body",
         "default": 16
-      },   
+      },
       {
         "type": "range",
         "id": "font_size_body_tablet",
@@ -69,7 +69,7 @@
         "unit": "px",
         "label": "Font size body tablet",
         "default": 14
-      },   
+      },
       {
         "type": "range",
         "id": "font_size_body_mobile",
@@ -79,7 +79,7 @@
         "unit": "px",
         "label": "Font size body mobile",
         "default": 14
-      },   
+      },
       {
         "type": "range",
         "id": "font_size_h1",
@@ -89,7 +89,7 @@
         "unit": "px",
         "label": "Font size H1",
         "default": 52
-      },     
+      },
       {
         "type": "range",
         "id": "font_size_h1_tablet",
@@ -99,7 +99,7 @@
         "unit": "px",
         "label": "Font size H1 tablet",
         "default": 46
-      },     
+      },
       {
         "type": "range",
         "id": "font_size_h1_mobile",
@@ -109,7 +109,7 @@
         "unit": "px",
         "label": "Font size H1 mobile",
         "default": 36
-      },     
+      },
       {
         "type": "range",
         "id": "font_size_h2",
@@ -119,7 +119,7 @@
         "unit": "px",
         "label": "Font size H2",
         "default": 40
-      },     
+      },
       {
         "type": "range",
         "id": "font_size_h2_tablet",
@@ -129,7 +129,7 @@
         "unit": "px",
         "label": "Font size H2 tablet",
         "default": 34
-      },     
+      },
       {
         "type": "range",
         "id": "font_size_h2_mobile",
@@ -139,7 +139,7 @@
         "unit": "px",
         "label": "Font size H2 mobile",
         "default": 30
-      },     
+      },
       {
         "type": "range",
         "id": "font_size_h3",
@@ -149,7 +149,7 @@
         "unit": "px",
         "label": "Font size H3",
         "default": 34
-      },     
+      },
       {
         "type": "range",
         "id": "font_size_h3_tablet",
@@ -159,7 +159,7 @@
         "unit": "px",
         "label": "Font size H3 tablet",
         "default": 30
-      },     
+      },
       {
         "type": "range",
         "id": "font_size_h3_mobile",
@@ -169,7 +169,7 @@
         "unit": "px",
         "label": "Font size H3 mobile",
         "default": 28
-      },     
+      },
       {
         "type": "range",
         "id": "font_size_h4",
@@ -179,7 +179,7 @@
         "unit": "px",
         "label": "Font size H4",
         "default": 30
-      },     
+      },
       {
         "type": "range",
         "id": "font_size_h4_tablet",
@@ -189,7 +189,7 @@
         "unit": "px",
         "label": "Font size H4 tablet",
         "default": 26
-      },     
+      },
       {
         "type": "range",
         "id": "font_size_h4_mobile",
@@ -199,7 +199,7 @@
         "unit": "px",
         "label": "Font size H4 mobile",
         "default": 22
-      },     
+      },
       {
         "type": "range",
         "id": "font_size_h5",
@@ -209,7 +209,7 @@
         "unit": "px",
         "label": "Font size H5",
         "default": 22
-      },     
+      },
       {
         "type": "range",
         "id": "font_size_h5_tablet",
@@ -219,7 +219,7 @@
         "unit": "px",
         "label": "Font size H5 tablet",
         "default": 20
-      },     
+      },
       {
         "type": "range",
         "id": "font_size_h5_mobile",
@@ -229,7 +229,7 @@
         "unit": "px",
         "label": "Font size H5 mobile",
         "default": 18
-      },     
+      },
       {
         "type": "range",
         "id": "font_size_h6",
@@ -239,7 +239,7 @@
         "unit": "px",
         "label": "Font size H6",
         "default": 18
-      },     
+      },
       {
         "type": "range",
         "id": "font_size_h6_tablet",
@@ -249,7 +249,7 @@
         "unit": "px",
         "label": "Font size H6 tablet",
         "default": 18
-      },     
+      },
       {
         "type": "range",
         "id": "font_size_h6_mobile",
@@ -259,7 +259,7 @@
         "unit": "px",
         "label": "Font size H6 mobile",
         "default": 16
-      },     
+      },
       {
         "type": "font_picker",
         "id": "font_body",
@@ -439,7 +439,7 @@
         "type": "text",
         "id": "social_tiktok_link",
         "label": "TikTok",
-        "info": "https://tiktok.com/@shopify"
+        "info": "https:\/\/tiktok.com\/@shopify"
       },
       {
         "type": "text",
@@ -457,13 +457,13 @@
         "type": "text",
         "id": "social_tumblr_link",
         "label": "Tumblr",
-        "info": "https://shopify.tumblr.com"
+        "info": "https:\/\/shopify.tumblr.com"
       },
       {
         "type": "text",
         "id": "social_vimeo_link",
         "label": "Vimeo",
-        "info": "https://vimeo.com/shopify"
+        "info": "https:\/\/vimeo.com\/shopify"
       }
     ]
   }
