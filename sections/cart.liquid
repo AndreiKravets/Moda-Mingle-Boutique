@@ -2,10 +2,10 @@
 <script src="{{ 'cart.js' | asset_url }}" defer></script>
 
 <script>
-  console.log({{ cart | json }})
+  console.log('{{ section.id }}')
 </script>
 
-<cart-main data-sectionId="{{ section.id }}">
+<cart-main data-section_id = "{{ section.id }}">
   <div class="cart__container">
     <div class="cart__products">
         <div class="cart__products_title">
@@ -23,11 +23,11 @@
              </div>
              <div class="cart__item_count">
                <div class="cart__item_count-qty">
-                 <span class="change_qty">{% render 'icon-minus' %}</span>
+                 <span class="change_qty" data-quantity = "{{ product.quantity | minus: 1 }}" data-variant_id = "{{ product.id }}" >{% render 'icon-minus' %}</span>
                  <span class="current_qty">{{ product.quantity }}</span>
-                 <span class="change_qty">{% render 'icon-plus' %}</span>
+                 <span class="change_qty" data-quantity = "{{ product.quantity | plus: 1 }}" data-variant_id = "{{ product.id }}" >{% render 'icon-plus' %}</span>
                </div>
-               <span class="del_product">{% render 'icon-trash' %}</span>
+               <span class="del_product change_qty" data-quantity = 0 data-variant_id = "{{ product.id }}">{% render 'icon-trash' %}</span>
              </div>
              <div class="cart__item_price">
                <span>{{ product.line_price | money }}</span>

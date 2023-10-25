@@ -48,6 +48,9 @@
         padding: 0 20px;
         span{
           cursor: pointer;
+          svg{
+            pointer-events: none;
+          }
         }
         &-qty{
           display: flex;
