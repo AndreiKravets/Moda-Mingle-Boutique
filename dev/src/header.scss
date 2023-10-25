@@ -255,6 +255,23 @@
         transition: all 0.2s ease-in-out;
       }
     }
+    &_cart{
+      position: relative;
+      span{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        width: 16px;
+        height: 16px;
+        font-size: 11px;
+        background-color: #000;
+        color: white;
+        right: -3px;
+        top: -3px;
+      }
+    }
   }
 
   &--menu-active {
