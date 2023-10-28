@@ -49,6 +49,7 @@ customElements.define('main-product', class MProduct extends HTMLElement {
       fetch(formUrl, formBody).then((res) => {
         if (res.ok) {
           PubSub.publish(PubSub.EVENTS.cartUpdated)
+          PubSub.publish(PubSub.EVENTS.openCartDrawer)
         }
       });
     }
