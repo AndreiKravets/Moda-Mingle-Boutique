@@ -12,6 +12,11 @@ if (!customElements.get('s-header')) {
           "click", () => this.toggleMenuMobile(this))
         document.querySelector('.body-overlay').addEventListener(
           "click", () => this.toggleMenuMobile(this))
+
+        this.querySelector('.s-header__account_cart').addEventListener('click', this.openCartDrawer)
+
+        PubSub.subscribe('cart-updated', this.updateCount.bind(this))
+
         this.menuItems.forEach((menuItem) => {
           this.addClassParentMenu(menuItem)
           this.openMegaMenuMobile(menuItem)
@@ -19,6 +24,19 @@ if (!customElements.get('s-header')) {
           this.closeMegaMenuDesktop(menuItem)
         })
         this.closeMegaMenuMobile()
+      }
+
+
+      openCartDrawer(){
+        PubSub.publish('open-drawer')
+      }
+
+      updateCount(){
+        fetch(window.theme.shopUrl + '/cart.js')
+          .then((res) => res.json())
+          .then((data) => {
+            this.querySelector('.header_cart_count').innerHTML = data.item_count
+          })
       }
 
       addClassParentMenu(menuItem) {

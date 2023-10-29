@@ -155,14 +155,15 @@
           opacity: 0;
           z-index: -1;
           position: absolute;
-          top: 40px;
+          top: -500px;
           width: max-content;
           min-width: 220px;
           background-color: white;
           padding: 24px 20px;
           text-align: left;
           border-top: 1px solid #a0a0a0;
-          transition: opacity .15s ease .3s, top .65s ease .3s, z-index .2s ease .3s;
+          transform: translateY(-30px);
+          transition: opacity .2s ease .3s, z-index .0s ease .4s, top 0s ease .4s, transform .2s ease .3s;
           @media screen and (max-width: 990px) {
             padding: 0;
             padding-left: 14px;
@@ -200,7 +201,9 @@
           ul {
             opacity: 1;
             z-index: 10;
-            transition: opacity .25s ease .2s, top .3s ease .2s;
+            top: 100%;
+            transform: translateY(0px);
+            transition: opacity .25s ease .2s, transform .25s ease .2s;
           }
         }
         &-megamenu{
