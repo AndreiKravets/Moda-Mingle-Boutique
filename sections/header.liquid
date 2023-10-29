@@ -126,9 +126,11 @@
 
     </nav>
     <div class="s-header__account">
-      <a href="{{ routes.search_url }}">
+      {% if template != 'search' %}
+      <span class="s-header__open-search">
         {% render 'icon-search' %}
-      </a>
+      </span>
+      {% endif %}
       <a href="{{ routes.account_url }}">
         {% render 'icon-account' %}
       </a>
