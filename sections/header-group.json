@@ -15,7 +15,7 @@
           "settings": {
             "title": "About Us",
             "max_width_column": 15,
-            "menu": "header",
+            "menu": "main-menu",
             "product_link": ""
           }
         },

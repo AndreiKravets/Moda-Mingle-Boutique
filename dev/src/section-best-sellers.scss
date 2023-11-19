@@ -1,0 +1,40 @@
+.best-sellers{
+  &__header{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__wrapper{
+
+  }
+  &__title{
+
+  }
+  &__subtitle{
+
+  }
+  &__products{
+    display: flex;
+    margin-top: 25px;
+  }
+  &__product{
+   flex: 1;
+    margin-left: 15px;
+    &:first-child{
+      margin-left: 0;
+    }
+  }
+  &__btn{
+    margin-left: auto;
+    margin-top: 35px;
+    cursor: pointer;
+    &:disabled{
+      color: darkgrey;
+      border-color: darkgrey;
+      &:hover{
+        color: darkgrey;
+        border-color: darkgrey;
+        background-color: transparent;
+      }
+    }
+  }
+}

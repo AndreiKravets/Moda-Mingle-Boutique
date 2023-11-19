@@ -1,0 +1,55 @@
+{{ 'product.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'product.js' | asset_url }}" defer></script>
+
+<style>
+  .product-card__image{
+      height: {{ settings.product_image_height }}px;
+  }
+</style>
+
+<product-card class="product-card">
+  <div class="product-card__wrapper">
+
+    <div class="product-card__image">
+      <img src="
+      {% if product.selected_or_first_available_variant.featured_image.size > 0 %}
+           {{ product.selected_or_first_available_variant.featured_image | img_url: 'master' }}
+           {% else %}
+           {{ product.featured_image | img_url: 'master' }}
+    {% endif %}
+          "alt="{{ product.title }}">
+    </div>
+
+    <div class="product-card__content">
+      <div class="product-card__content_main">
+        <span class="product-card__content_type">{{ product.type }}</span>
+        <a href="{{ product.url }}" class="product-card__content_title">{{ product.title }}</a>
+        {% render 'icon-stars' %}
+        <span class="product-card__content_price">{{ product.selected_or_first_available_variant.price | money }}</span>
+      </div>
+
+      <div class="product-card__content_footer">
+        <a href="{{ product.url }}" class="product-card__content_view btn-underline">view product</a>
+        <button class="product-card__content_add">{% render 'icon-cart' %}</button>
+      </div>
+    </div>
+
+  </div>
+
+
+  {% form 'product', product %}
+    <input type="number" name="quantity" min="1" value="1" id="product-quantity">
+    <select name="id" id="variant-select">
+      {% for variant in product.variants %}
+        <option value="{{ variant.id }}"
+                {% if variant == product.selected_or_first_available_variant %}selected="selected"{% endif %}
+        >
+          {{ variant.title }} - {{ variant.price | money }}
+        </option>
+      {% endfor %}
+    </select>
+
+    <input type="submit" value="Add to cart">
+  {% endform %}
+</product-card>
+

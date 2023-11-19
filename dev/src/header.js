@@ -24,8 +24,15 @@ if (!customElements.get('s-header')) {
           this.closeMegaMenuDesktop(menuItem)
         })
         this.closeMegaMenuMobile()
+       if(this.querySelector('.s-header__open-search')){
+         this.querySelector('.s-header__open-search').addEventListener('click', () => this.openSearch())
+       }
       }
 
+
+      openSearch(){
+        PubSub.publish('open-search')
+      }
 
       openCartDrawer(){
         PubSub.publish('open-drawer')

@@ -19,6 +19,22 @@
     ]
   },
   {
+    "name": "Global",
+    "settings": [
+      {
+        "type": "range",
+        "id": "container_width",
+        "label": "Container width",
+        "min": 1000,
+        "max": 2000,
+        "step": 10,
+        "unit": "px",
+        "default": 1300,
+        "info": "Set the initial container width to a flexible value, allowing for easy adjustments within specific sections."
+      }
+    ]
+  },
+  {
     "name": "Colors",
     "settings": [
       {
@@ -411,6 +427,25 @@
     ]
   },
   {
+    "name": "Product card",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Settings product snippet"
+      },
+      {
+        "type": "range",
+        "id": "product_image_height",
+        "min": 100,
+        "max": 800,
+        "step": 10,
+        "unit": "px",
+        "label": "Product image height",
+        "default": 350
+      }
+    ]
+  },
+      {
     "name": "Social media",
     "settings": [
       {

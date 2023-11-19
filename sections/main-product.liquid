@@ -1,6 +1,9 @@
 {{ 'main-product.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'main-product.js' | asset_url }}" defer></script>
 
+<script>
+  console.log({{ recommendations.products_count }})
+</script>
 
 <main-product data-variants='{{ product.variants | json }}'>
   <section class="main-product">

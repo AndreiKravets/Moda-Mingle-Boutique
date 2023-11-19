@@ -7,6 +7,7 @@
     "header_logo": "shopify:\/\/shop_images\/isolated-monochrome-black.svg",
     "header_logo_width": 90,
     "header_menu": "header",
+    "product_image_height": 400,
     "sections": {
       "header": {
         "type": "header",
@@ -15,6 +16,18 @@
       },
       "footer": {
         "type": "footer",
+        "settings": {
+        }
+      },
+      "popup-search": {
+        "type": "popup-search",
+        "settings": {
+          "bg_color": "#FFFFFF",
+          "container_width": 1300
+        }
+      },
+      "cart-drawer": {
+        "type": "cart-drawer",
         "settings": {
         }
       }

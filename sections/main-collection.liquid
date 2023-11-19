@@ -1,0 +1,85 @@
+{{ 'main-collection.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'main-collection.js' | asset_url }}" defer></script>
+
+
+<main-collection class="main-collection">
+  <div class="container">
+    <div class="main-collection__wrapper">
+
+      <div class="main-collection__title">
+        <h3>
+          {% if collection.title == 'Products' %}
+          All products
+          {% else %}
+          {{ collection.title }}
+          {% endif %}
+        </h3>
+      </div>
+
+    </div>
+
+    {% render 'filters', results: collection, paginate: paginate %}
+
+    <div class="main-collection__products">
+    {% paginate collection.products by section.settings.count_products %}
+      <div class="row">
+        {% for product in collection.products %}
+          <div class="main-collection__product">
+            {% render 'product', product: product %}
+          </div>
+        {% endfor %}
+      </div>
+      <div class="products-pagination">
+        {{ paginate | default_pagination }}
+      </div>
+    {% endpaginate %}
+
+    </div>
+  </div>
+</main-collection>
+
+
+{% schema %}
+{
+  "name": "Collection",
+  "tag": "section",
+  "disabled_on": {
+    "groups": [
+      "header"
+    ]
+  },
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section settings"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "text_alignment",
+      "id": "text_align",
+      "label": "Text alignment",
+      "default": "center"
+    },
+    {
+      "type": "text_alignment",
+      "id": "text_align_mobile",
+      "label": "Text alignment mobile",
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "count_products",
+      "min": 6,
+      "max": 30,
+      "step": 1,
+      "label": "Count products on page",
+      "default": 6
+    }
+  ]
+}
+{% endschema %}
