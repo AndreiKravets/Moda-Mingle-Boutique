@@ -1,5 +1,31 @@
 <footer>
-  <p>Footer</p>
+  
+        {% form 'contact' %}
+          {{ form.errors | default_errors }}
+
+          <div class="first-name">
+            <label for="first-name">First name</label>
+            <input type="text" name="contact[first_name]" id="first-name" />
+          </div>
+          <div class="email">
+            <label for="email">Email</label>
+            <input type="email" name="contact[email]" id="email" />
+          </div>
+
+          <div class="order-number">
+            <label for="order-number">Order number</label>
+            <input type="text" name="contact[order_number]" id="order-number" />
+          </div>
+
+          <div class="message">
+            <label for="message">Message</label>
+            <textarea name="contact[body]" id="message"></textarea>
+          </div>
+
+          <div class="submit">
+            <input type="submit" value="Create" />
+          </div>
+        {% endform %}
 </footer>
 
 
