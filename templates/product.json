@@ -4,9 +4,42 @@
       "type": "main-product",
       "settings": {
       }
+    },
+    "1714393326b51cf28b": {
+      "type": "apps",
+      "blocks": {
+        "smartrr_app_block_fMTJkF": {
+          "type": "shopify:\/\/apps\/smartrr\/blocks\/app-block\/feefa72b-d730-4320-ae1b-95af6a0c861e",
+          "settings": {
+            "group_select": "radio",
+            "group_border": 1,
+            "group_border_radius": 8,
+            "group_primary_background": "#FFFFFF",
+            "group_primary_text_color": "#202223",
+            "group_border_color": "#202223",
+            "show_otp": true,
+            "otp_default": false,
+            "show_prices": false,
+            "plan_select": "dropdown",
+            "plan_border": 1,
+            "plan_border_radius": 8,
+            "show_label": true,
+            "plan_primary_background": "#FFFFFF",
+            "plan_primary_text_color": "#202223",
+            "plan_border_color": "#202223",
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "smartrr_app_block_fMTJkF"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1714393326b51cf28b"
   ]
 }
