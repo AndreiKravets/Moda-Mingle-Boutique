@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "ee484a40-6a76-4942-b881-518cafe4de8b": {
@@ -6,15 +15,15 @@
         "5ae7cee1-f287-4d9a-a656-6d80b29785e0": {
           "type": "banner_item",
           "settings": {
-            "desktop_image": "shopify:\/\/shop_images\/pexels-godisable-jacob-923210-min.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/pexels-godisable-jacob-923210-min.jpg",
+            "desktop_image": "shopify://shop_images/pexels-godisable-jacob-923210-min.jpg",
+            "mobile_image": "shopify://shop_images/pexels-godisable-jacob-923210-min.jpg",
             "banner_link": "",
             "img_brightness": 1,
             "title": "Quality Craftsmanship and Lasting Style",
             "title_color": "#ffffff",
             "subtitle": "Our clothing brand stands out for its commitment to quality craftsmanship and attention to detail. We take pride in offering our customers not only stylish and fashionable clothing but also garments that are designed to last, ensuring our clients always look their best.",
             "subtitle_color": "#ffffff",
-            "btn_link": "shopify:\/\/products\/classic-comfort-tee",
+            "btn_link": "shopify://products/classic-comfort-tee",
             "btn_name": "",
             "btn_style": "underline",
             "btn_color": "#000000"
@@ -23,8 +32,8 @@
         "18daf104-0e13-44c3-b71e-9d7cc45dc799": {
           "type": "banner_item",
           "settings": {
-            "desktop_image": "shopify:\/\/shop_images\/pexels-godisable-jacob-908309-min.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/pexels-godisable-jacob-908309-min.jpg",
+            "desktop_image": "shopify://shop_images/pexels-godisable-jacob-908309-min.jpg",
+            "mobile_image": "shopify://shop_images/pexels-godisable-jacob-908309-min.jpg",
             "banner_link": "",
             "img_brightness": 0,
             "title": "Affordable Fashion Excellence",
@@ -40,9 +49,9 @@
         "06769626-e756-4513-8306-93749c50c9dc": {
           "type": "banner_item",
           "settings": {
-            "desktop_image": "shopify:\/\/shop_images\/pexels-freestocksorg-291762-min.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/pexels-freestocksorg-291762-min.jpg",
-            "banner_link": "shopify:\/\/products\/classic-comfort-tee",
+            "desktop_image": "shopify://shop_images/pexels-freestocksorg-291762-min.jpg",
+            "mobile_image": "shopify://shop_images/pexels-freestocksorg-291762-min.jpg",
+            "banner_link": "shopify://products/classic-comfort-tee",
             "img_brightness": 1,
             "title": "Sustainability Meets Style",
             "title_color": "#ffffff",
@@ -89,32 +98,32 @@
         "0f78bcd7-731d-40c5-a1ee-d2225c8af1e7": {
           "type": "product_item",
           "settings": {
-            "product_image": "shopify:\/\/shop_images\/pexels-photo-794063.webp",
-            "product_image_hover": "shopify:\/\/shop_images\/pexels-photo-4124201.jpg",
+            "product_image": "shopify://shop_images/pexels-photo-794063.webp",
+            "product_image_hover": "shopify://shop_images/pexels-photo-4124201.jpg",
             "product_link": ""
           }
         },
         "45b627b9-8664-41d3-9587-ff47d13d3297": {
           "type": "product_item",
           "settings": {
-            "product_image": "shopify:\/\/shop_images\/pexels-photo-10083277.jpg",
-            "product_image_hover": "shopify:\/\/shop_images\/pexels-photo-10083279.jpg",
+            "product_image": "shopify://shop_images/pexels-photo-10083277.jpg",
+            "product_image_hover": "shopify://shop_images/pexels-photo-10083279.jpg",
             "product_link": ""
           }
         },
         "76118398-cd3a-4798-9589-ec844d8d04ac": {
           "type": "product_item",
           "settings": {
-            "product_image": "shopify:\/\/shop_images\/pexels-photo-2916814.jpg",
-            "product_image_hover": "shopify:\/\/shop_images\/pexels-photo-1007052.jpg",
+            "product_image": "shopify://shop_images/pexels-photo-2916814.jpg",
+            "product_image_hover": "shopify://shop_images/pexels-photo-1007052.jpg",
             "product_link": ""
           }
         },
         "78876aae-d168-4684-9609-bc74ebaf71f3": {
           "type": "product_item",
           "settings": {
-            "product_image": "shopify:\/\/shop_images\/pexels-photo-18398355.webp",
-            "product_image_hover": "shopify:\/\/shop_images\/pexels-photo-18398353.webp",
+            "product_image": "shopify://shop_images/pexels-photo-18398355.webp",
+            "product_image_hover": "shopify://shop_images/pexels-photo-18398353.webp",
             "product_link": ""
           }
         }
@@ -148,9 +157,9 @@
         "title_font_size_desktop": 26,
         "title_font_size_mobile": 22,
         "title_color": "#000000",
-        "subtitle": "<p>Explore our carefully curated selection of the latest and trendiest fashion pieces that keep you stylish and up-to-date.<\/p>",
+        "subtitle": "<p>Explore our carefully curated selection of the latest and trendiest fashion pieces that keep you stylish and up-to-date.</p>",
         "subtitle_color": "#313131",
-        "btn_link": "shopify:\/\/collections\/all",
+        "btn_link": "shopify://collections/all",
         "btn_name": "All Products",
         "btn_style": "normal",
         "btn_text_color": "#000000",
@@ -178,7 +187,7 @@
         "title_font_size_desktop": 28,
         "title_font_size_mobile": 26,
         "title_color": "#000000",
-        "subtitle": "<p>Discover the latest fashion trends and get inspired with our style tips.<\/p><p> Whether you're looking for everyday elegance or a bold statement piece, we have you covered. Explore our curated content for fashion insights, outfit ideas, and insider tips to elevate your wardrobe game.<\/p>",
+        "subtitle": "<p>Discover the latest fashion trends and get inspired with our style tips.</p><p> Whether you're looking for everyday elegance or a bold statement piece, we have you covered. Explore our curated content for fashion insights, outfit ideas, and insider tips to elevate your wardrobe game.</p>",
         "subtitle_color": "#000000",
         "btn_link": "",
         "btn_name": "Read More",
@@ -193,7 +202,7 @@
         "4bfd4f1e-0375-45ed-8d03-130403786a90": {
           "type": "client",
           "settings": {
-            "client_foto": "shopify:\/\/shop_images\/istockphoto-639372794-2048x2048.jpg",
+            "client_foto": "shopify://shop_images/istockphoto-639372794-2048x2048.jpg",
             "client_name": "Emily Anderson",
             "review": "I absolutely adore the dresses I got from this store! They are not only stylish but also incredibly comfortable. I feel like a fashion icon every time I wear them."
           }
@@ -201,7 +210,7 @@
         "b3dc8532-5b31-4045-958e-df2f00ba4720": {
           "type": "client",
           "settings": {
-            "client_foto": "shopify:\/\/shop_images\/istockphoto-656005880-2048x2048.jpg",
+            "client_foto": "shopify://shop_images/istockphoto-656005880-2048x2048.jpg",
             "client_name": "Sophia Martinez",
             "review": "The quality of the clothing here is top-notch. I've purchased several pieces, and they all fit perfectly and look fantastic. I get compliments wherever I go!"
           }
@@ -209,7 +218,7 @@
         "9c961e80-c2ac-4f1c-9c5b-c34b9661ca43": {
           "type": "client",
           "settings": {
-            "client_foto": "shopify:\/\/shop_images\/istockphoto-1438399088-2048x2048.jpg",
+            "client_foto": "shopify://shop_images/istockphoto-1438399088-2048x2048.jpg",
             "client_name": "Ava Johnson",
             "review": "This website has become my go-to for trendy outfits. I appreciate the variety of styles they offer. Whether I'm dressing up or going casual, I can always find something I love."
           }
@@ -217,7 +226,7 @@
         "c9ceaba7-9aef-44bf-8654-beca65dcbf78": {
           "type": "client",
           "settings": {
-            "client_foto": "shopify:\/\/shop_images\/istockphoto-1468870193-2048x2048.jpg",
+            "client_foto": "shopify://shop_images/istockphoto-1468870193-2048x2048.jpg",
             "client_name": "Olivia Williams",
             "review": "As a fashion-conscious shopper, I'm impressed with the attention to detail in every garment I've bought here. The designs are unique, and the fabrics are luxurious."
           }
@@ -225,7 +234,7 @@
         "3f9b3e77-069b-49e2-a51a-ef0dc1b609e5": {
           "type": "client",
           "settings": {
-            "client_foto": "shopify:\/\/shop_images\/istockphoto-646064682-2048x2048.jpg",
+            "client_foto": "shopify://shop_images/istockphoto-646064682-2048x2048.jpg",
             "client_name": "Mia Taylor",
             "review": "I'm a loyal customer because I trust this brand. The customer service is excellent, and the delivery is always prompt. The clothes make me feel confident and beautiful."
           }
@@ -255,12 +264,12 @@
         "number_of_slides": "4",
         "number_of_slides_tablet": "2",
         "number_of_slides_mobile": "1",
-        "bg_image": "shopify:\/\/shop_images\/pexels-photo-1884581.jpg",
+        "bg_image": "shopify://shop_images/pexels-photo-1884581.jpg",
         "bg_brightness": 2,
         "content_color": "#ffffff",
         "margin_bottom_content": 60,
-        "title": "<p>What people say<\/p>",
-        "subtitle": "<h2>Words Of Our Clients<\/h2>",
+        "title": "<p>What people say</p>",
+        "subtitle": "<h2>Words Of Our Clients</h2>",
         "foto_size": 90,
         "review_bg_color": "#ffffff",
         "client_name_color": "#000000",
@@ -269,6 +278,7 @@
     },
     "78791ee0-62af-4f85-a5b8-3bcf1c3f77dc": {
       "type": "best-sellers",
+      "disabled": true,
       "settings": {
         "bg_color": "#ffffff",
         "margin_top_desktop": 0,
@@ -285,9 +295,10 @@
         "title_font_size_desktop": 34,
         "title_font_size_mobile": 26,
         "title_color": "#000000",
-        "subtitle": "<p>Discover our handpicked collection of the most popular and highly-rated products.<\/p>",
+        "subtitle": "<p>Discover our handpicked collection of the most popular and highly-rated products.</p>",
         "subtitle_color": "#000000",
-        "collection": "best-sellers"
+        "collection": "best-sellers",
+        "count_products": 3
       }
     },
     "750852ca-e8dd-43fb-8865-1fa28018334c": {
@@ -296,7 +307,7 @@
         "070139ea-8179-438b-8b3b-d2ffc2517e25": {
           "type": "Step",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-photo-794063.webp",
+            "image": "shopify://shop_images/pexels-photo-794063.webp",
             "content_color": "#000000",
             "title": "Step 1",
             "content": "Dive into a world of endless fashion possibilities. Browse our carefully curated collections, from casual chic to elegant evening wear. Discover pieces that resonate with your unique style."
@@ -305,7 +316,7 @@
         "a32b026f-7f76-4cf3-ad4e-b26a0e9ceac4": {
           "type": "Step",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-photo-4124201.jpg",
+            "image": "shopify://shop_images/pexels-photo-4124201.jpg",
             "content_color": "#000000",
             "title": "Step 2",
             "content": "Our fashion experts are here to guide you. Book a one-on-one consultation to build a wardrobe tailored to your taste and lifestyle. Uncover the perfect outfits for every occasion."
@@ -314,7 +325,7 @@
         "e6ea6f30-ffe8-4b1b-ac63-7482088d386c": {
           "type": "Step",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-photo-10083279.jpg",
+            "image": "shopify://shop_images/pexels-photo-10083279.jpg",
             "content_color": "#000000",
             "title": "Step 3",
             "content": "Elevate your fashion game with our mix-and-match suggestions. Learn how to combine pieces effortlessly, creating versatile and stylish outfits. Confidence is the ultimate accessory."
@@ -323,7 +334,7 @@
         "8567a3b1-6a34-4577-b396-aee22d90f463": {
           "type": "Step",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-photo-2916814.jpg",
+            "image": "shopify://shop_images/pexels-photo-2916814.jpg",
             "content_color": "#000000",
             "title": "Step 4",
             "content": "Join our fashion community and stay inspired. Receive the latest trends, style tips, and exclusive offers. Be part of a community where your style is celebrated."
@@ -356,32 +367,32 @@
         "2d78f484-a11d-47ed-a576-e4772b04883c": {
           "type": "product_item",
           "settings": {
-            "product_image": "shopify:\/\/shop_images\/pexels-photo-794063.webp",
-            "product_image_hover": "shopify:\/\/shop_images\/pexels-photo-4124201.jpg",
+            "product_image": "shopify://shop_images/pexels-photo-794063.webp",
+            "product_image_hover": "shopify://shop_images/pexels-photo-4124201.jpg",
             "product_link": ""
           }
         },
         "9abd3545-21d1-4b34-b300-e4d7145d79c7": {
           "type": "product_item",
           "settings": {
-            "product_image": "shopify:\/\/shop_images\/pexels-photo-10083277.jpg",
-            "product_image_hover": "shopify:\/\/shop_images\/pexels-photo-10083279.jpg",
+            "product_image": "shopify://shop_images/pexels-photo-10083277.jpg",
+            "product_image_hover": "shopify://shop_images/pexels-photo-10083279.jpg",
             "product_link": ""
           }
         },
         "83c3dcad-cbf2-4494-bd35-0fb2e89f9371": {
           "type": "product_item",
           "settings": {
-            "product_image": "shopify:\/\/shop_images\/pexels-photo-2916814.jpg",
-            "product_image_hover": "shopify:\/\/shop_images\/pexels-photo-1007052.jpg",
+            "product_image": "shopify://shop_images/pexels-photo-2916814.jpg",
+            "product_image_hover": "shopify://shop_images/pexels-photo-1007052.jpg",
             "product_link": ""
           }
         },
         "ca0f60d7-1e4c-40db-ae98-169c90fd7138": {
           "type": "product_item",
           "settings": {
-            "product_image": "shopify:\/\/shop_images\/pexels-photo-18398355.webp",
-            "product_image_hover": "shopify:\/\/shop_images\/pexels-photo-18398353.webp",
+            "product_image": "shopify://shop_images/pexels-photo-18398355.webp",
+            "product_image_hover": "shopify://shop_images/pexels-photo-18398353.webp",
             "product_link": ""
           }
         }
@@ -415,9 +426,9 @@
         "title_font_size_desktop": 26,
         "title_font_size_mobile": 22,
         "title_color": "#000000",
-        "subtitle": "<p>Explore our carefully curated selection of the latest and trendiest fashion pieces that keep you stylish and up-to-date.<\/p>",
+        "subtitle": "<p>Explore our carefully curated selection of the latest and trendiest fashion pieces that keep you stylish and up-to-date.</p>",
         "subtitle_color": "#313131",
-        "btn_link": "shopify:\/\/collections\/all",
+        "btn_link": "shopify://collections/all",
         "btn_name": "All Products",
         "btn_style": "normal",
         "btn_text_color": "#000000",
