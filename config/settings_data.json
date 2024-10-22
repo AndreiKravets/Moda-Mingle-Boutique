@@ -1,10 +1,20 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "font_body": "dm_sans_n4",
     "font_heading": "josefin_slab_n4",
     "header_menu_position": "center",
     "menu_font_heading": "dm_sans_n4",
-    "header_logo": "shopify:\/\/shop_images\/isolated-monochrome-black.svg",
+    "header_padding": 10,
+    "header_logo": "shopify://shop_images/isolated-monochrome-black.svg",
     "header_logo_width": 90,
     "header_menu": "header",
     "product_image_height": 400,
@@ -22,7 +32,7 @@
       "popup-search": {
         "type": "popup-search",
         "settings": {
-          "bg_color": "#FFFFFF",
+          "bg_color": "#ffffff",
           "container_width": 1300
         }
       },
